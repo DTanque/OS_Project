@@ -1,10 +1,13 @@
 Sistemas Operativos 2015/16
 
-Exercício 1 - Enunciado e ficheiros de apoio
-Versão 2
-====================
+Projecto possui implementado código que garantes as seguintes funcionalidades:
 
-Alterações em relação à v1:
-- Pequenas gralhas corrigidas nos ficheiros commandlinereader.c e commandlinereader.h
+- Criação/Destruição de Processos e Tarefas
+- Implementação de Multiparalelismo entre Tarefas e Processos
+- Comunicação entre Processos (via Pipes c/ Nome - FIFO)
+- Redireccionamento do stdout e stdin
+- Escrita em Ficheiros
 
-Todos os restantes ficheiros continuam iguais à v1.
+Palavras-Chave: fork, exec, wait, exit, sleep, sem_wait, sem_post, sem_init, sem_destroy, pthread_cond_wait, pthread_cond_signal, pthread_cond_init, pthread_cond_destroy, fgets, fprintf, fflush, fopen, fclose, sscanf, unlink, mkfifo, open, close, dup, read, write, signal, kill.
+
+EOF
